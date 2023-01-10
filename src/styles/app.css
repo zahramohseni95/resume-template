@@ -1,0 +1,62 @@
+@import "../assets/ionicons/css/ionicons.min.css";
+
+/* Google fonts & font family
+==================================================*/
+
+@import "https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i";
+
+/* typography
+==================================================*/
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 80px;
+  line-height: 70px;
+}
+
+h4 {
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  position: relative;
+  color: #425bb5;
+  margin-left: 40px;
+  font-weight: 700;
+}
+
+h4:before {
+  position: absolute;
+  width: 30px;
+  left: -40px;
+  content: "";
+  display: block;
+  height: 2px;
+  background: #425bb5;
+  top: 9px;
+}
+
+/* General
+==================================================*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  scroll-behavior: smooth ;
+}
+
+.size-50 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+  h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 50px;
+      line-height: 50px;
+  }
+}
