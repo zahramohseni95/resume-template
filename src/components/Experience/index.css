@@ -1,0 +1,19 @@
+#experience {
+    padding: 100px 0;
+    background: #f3f3f3
+}
+.timeline {
+    padding-left: 0;
+    list-style: none;
+    position: relative;
+}
+.timeline:before {
+    background-color: black;
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: 2em;
+    width: 2px;
+    height: 100%;
+}
