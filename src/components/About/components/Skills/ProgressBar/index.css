@@ -1,0 +1,21 @@
+.progress {
+  height: 28px;
+}
+.progress-bar {
+  background-color: #596eb8;
+}
+.skill-title {
+  height: 100%;
+  width: 100px;
+  line-height: 28px;
+  font-size: 15px;
+  background-color: #8497d9;
+  font-weight: bold;
+}
+
+.skill-percent {
+  height:100%;
+  width: 36px;
+  line-height: 28px;
+  color: #909090;
+}
