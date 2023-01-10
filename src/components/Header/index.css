@@ -1,0 +1,23 @@
+#home {
+  background: url(./assets/img/home-bg-2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.disply-table {
+  display: table;
+  height: 100vh;
+}
+
+
+@media (max-width: 500px) {
+  #home,
+  .disply-table {
+      height: 600px;
+  }
+}
