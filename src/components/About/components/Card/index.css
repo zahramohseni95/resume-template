@@ -1,0 +1,7 @@
+.about-img img {
+  -webkit-filter: drop-shadow(2px 2px 0 #425bb5) drop-shadow(-2px 2px 0 #425bb5)
+    drop-shadow(2px -2px 0 #425bb5) drop-shadow(-2px -2px 0 #425bb5);
+
+  filter: drop-shadow(2px 2px 0 #425bb5) drop-shadow(-2px 2px 0 #425bb5)
+    drop-shadow(2px -2px 0 #425bb5) drop-shadow(-2px -2px 0 #425bb5);
+}
