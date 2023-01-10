@@ -1,0 +1,7 @@
+.about-wrapper {
+  display: flex;
+  align-items: center;
+}
+#about {
+  padding: 100px 0;
+}
