@@ -1,0 +1,21 @@
+#contact-form input,
+#contact-form textarea {
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+#submit {
+  background-color: #425bb5;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  width: 100%;
+}
